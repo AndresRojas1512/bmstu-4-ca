@@ -113,12 +113,10 @@ Representación de la solución del problema de contorno con Matplotlib.
 Compilación y ejecución desde el directorio del laboratorio:
 
 ```bash
-cd Lab_01
+cd Lab_0X
 make release
 ./app.exe
 ```
-
-Para `Lab_02` y `Lab_03`, sustituir `Lab_01` por el directorio correspondiente.
 
 Limpieza de artefactos:
 
