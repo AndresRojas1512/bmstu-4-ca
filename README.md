@@ -96,7 +96,7 @@ Resolución de tres problemas mediante cálculo simbólico, álgebra lineal, int
 
 Representación de la solución del problema de contorno con Matplotlib.
 
-## Tecnologías
+## Stack tecnologico
 
 | Área | Tecnologías |
 | --- | --- |
@@ -105,60 +105,3 @@ Representación de la solución del problema de contorno con Matplotlib.
 | Cálculo numérico | NumPy, SymPy, SciPy y Boost.Math |
 | Visualización | Matplotlib, pandas y Plotly |
 | Intercambio de datos | CSV |
-
-## Compilación y ejecución
-
-### `Lab_01`, `Lab_02` y `Lab_03`
-
-Compilación y ejecución desde el directorio del laboratorio:
-
-```bash
-cd Lab_0X
-make release
-./app.exe
-```
-
-Limpieza de artefactos:
-
-```bash
-make clean
-```
-
-### `Lab_04`
-
-Dependencias de compilación y ejecución:
-
-- compilador con soporte para C++17
-- Qt Widgets y qmake
-- Python 3.10 y cabeceras de desarrollo
-- Boost.Math
-- NumPy, pandas, Matplotlib, SciPy y Plotly
-
-Compilación:
-
-```bash
-cd Lab_04
-qmake Lab_04_ui.pro
-make
-./Lab_04_ui
-```
-
-| Archivo | Configuración |
-| --- | --- |
-| [`Lab_04/Lab_04_ui.pro`](Lab_04/Lab_04_ui.pro) | Rutas de Python y Boost |
-| [`Lab_04/mainwindow.cpp`](Lab_04/mainwindow.cpp) | Rutas de archivos CSV y scripts de visualización |
-
-### `Lab_05`
-
-Dependencias:
-
-```bash
-python3 -m pip install numpy sympy scipy matplotlib
-```
-
-Ejecución:
-
-```bash
-cd Lab_05
-python3 main.py
-```
